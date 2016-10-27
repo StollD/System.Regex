@@ -15,7 +15,7 @@
 //
 
 
-namespace System.Text.RegularExpressions {
+namespace System.Regex {
 
     using System.Collections.Generic;
     using System.Collections;

@@ -22,7 +22,7 @@
 //      m+1...n The categories.  This is a list of UnicodeCategory enum values which describe categories
 //              included in this class.  
 
-namespace System.Text.RegularExpressions {
+namespace System.Regex {
 
     using System.Collections;
     using System.Collections.Generic;

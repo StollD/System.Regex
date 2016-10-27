@@ -18,7 +18,7 @@
 // Strings and sets are indices into a string table.
 
 
-namespace System.Text.RegularExpressions {
+namespace System.Regex {
 
     using System.Collections;
     using System.Collections.Generic;

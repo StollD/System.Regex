@@ -13,7 +13,7 @@
 // the string that is being searched for, the fewer characters
 // need to be examined.
 
-namespace System.Text.RegularExpressions
+namespace System.Regex
 {
 
     using System.Collections;

@@ -27,7 +27,7 @@
 // values are indices into the _matches array transformed by the formula -3-x.  This formula also untransforms. 
 // 
 
-namespace System.Text.RegularExpressions {
+namespace System.Regex {
 
     using System.Collections;
     using System.Collections.Generic;

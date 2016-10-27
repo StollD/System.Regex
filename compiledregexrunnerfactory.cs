@@ -10,7 +10,7 @@ using System.Security.Permissions;
 
 #if !SILVERLIGHT
 
-namespace System.Text.RegularExpressions {
+namespace System.Regex {
 
     
     internal sealed class CompiledRegexRunnerFactory : RegexRunnerFactory {

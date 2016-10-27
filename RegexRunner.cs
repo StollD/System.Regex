@@ -20,7 +20,7 @@
 // backtracked results from) the Match instance.
 
 
-namespace System.Text.RegularExpressions {
+namespace System.Regex {
 
     using System.Collections;
     using System.Diagnostics;

@@ -10,7 +10,7 @@ using System;
 using System.Runtime.Serialization;
 using System.Runtime.Versioning;
 
-namespace System.Text.RegularExpressions {
+namespace System.Regex {
  
     /// <devdoc>
     ///    <para>

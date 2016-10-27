@@ -9,7 +9,7 @@
 // input.
 
 
-namespace System.Text.RegularExpressions
+namespace System.Regex
 {
 
     using System.Collections;

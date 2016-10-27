@@ -7,7 +7,7 @@
 // The MatchCollection lists the successful matches that
 // result when searching a string for a regular expression.
 
-namespace System.Text.RegularExpressions {
+namespace System.Regex {
 
     using System.Collections;
     using System.Collections.Generic;

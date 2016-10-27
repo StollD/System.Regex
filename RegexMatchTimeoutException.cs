@@ -12,7 +12,7 @@ using System.Security;
 using System.Security.Permissions;
 
 
-namespace System.Text.RegularExpressions {
+namespace System.Regex {
 
 /// <summary>
 /// This is the exception that is thrown when a RegEx matching timeout occurs.

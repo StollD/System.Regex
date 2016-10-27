@@ -7,7 +7,7 @@
 // The GroupCollection lists the captured Capture numbers
 // contained in a compiled Regex.
 
-namespace System.Text.RegularExpressions {
+namespace System.Regex {
 
     using System.Collections;
     using System.Collections.Generic;

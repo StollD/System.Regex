@@ -8,7 +8,7 @@
 // are captured by a single capturing group after one
 // regular expression match.
 
-namespace System.Text.RegularExpressions {
+namespace System.Regex {
     using System.Security.Permissions;
 
     /// <devdoc>

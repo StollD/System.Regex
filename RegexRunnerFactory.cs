@@ -8,7 +8,7 @@
 // we need to compile a factory because Type.CreateInstance is much slower
 // than calling the constructor directly.
 
-namespace System.Text.RegularExpressions {
+namespace System.Regex {
 
     using System.ComponentModel;
 

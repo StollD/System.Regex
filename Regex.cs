@@ -7,7 +7,7 @@
 // The Regex class represents a single compiled instance of a regular
 // expression.
 
-namespace System.Text.RegularExpressions {
+namespace System.Regex {
 
     using System;
     using System.Threading;

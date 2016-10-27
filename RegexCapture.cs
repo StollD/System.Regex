@@ -9,7 +9,7 @@
 // search may return multiple Capture within each capturing
 // RegexGroup.
 
-namespace System.Text.RegularExpressions {
+namespace System.Regex {
 
     /// <devdoc>
     ///    <para> 

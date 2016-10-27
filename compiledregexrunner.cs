@@ -10,7 +10,7 @@ using System.Reflection.Emit;
 
 #if !SILVERLIGHT
 
-namespace System.Text.RegularExpressions {
+namespace System.Regex {
 
     internal sealed class CompiledRegexRunner : RegexRunner {
         NoParamDelegate goMethod;
