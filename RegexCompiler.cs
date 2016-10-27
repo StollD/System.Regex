@@ -3039,10 +3039,10 @@ namespace System.Regex {
                 CustomAttributeBuilder transparencyAttribute = new CustomAttributeBuilder(transparencyCtor, new object[0]);
                 assemblyAttributes.Add(transparencyAttribute);
 
-                ConstructorInfo securityRulesCtor = typeof(SecurityRulesAttribute).GetConstructor(new Type[] { typeof(SecurityRuleSet) });
+                /*ConstructorInfo securityRulesCtor = typeof(SecurityRulesAttribute).GetConstructor(new Type[] { typeof(SecurityRuleSet) });
                 CustomAttributeBuilder securityRulesAttribute =
                     new CustomAttributeBuilder(securityRulesCtor, new object[] { SecurityRuleSet.Level2 });
-                assemblyAttributes.Add(securityRulesAttribute);
+                assemblyAttributes.Add(securityRulesAttribute);*/
 
                 _assembly = AppDomain.CurrentDomain.DefineDynamicAssembly(an, AssemblyBuilderAccess.RunAndSave, assemblyAttributes);
                 _module = _assembly.DefineDynamicModule(an.Name + ".dll");

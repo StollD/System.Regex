@@ -217,7 +217,7 @@ namespace System.Regex {
 
                 // Depends on the fact that Group.Synchronized just
                 // operates on and returns the same instance
-                System.Text.RegularExpressions.Group.Synchronized(group);
+                System.Regex.Group.Synchronized(group);
             }
 
             return inner;

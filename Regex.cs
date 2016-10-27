@@ -74,7 +74,7 @@ namespace System.Regex {
         #if !FEATURE_NETCORE
         [NonSerialized()]
         #endif
-        public static readonly TimeSpan InfiniteMatchTimeout = Timeout.InfiniteTimeSpan;
+        public static readonly TimeSpan InfiniteMatchTimeout = new TimeSpan(0, 0, 0, 0, Timeout.Infinite);
         #else
         internal static readonly TimeSpan InfiniteMatchTimeout = new TimeSpan(0, 0, 0, 0, Timeout.Infinite);
         #endif                              
