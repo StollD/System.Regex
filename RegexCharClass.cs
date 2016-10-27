@@ -28,6 +28,7 @@ namespace System.Regex {
     using System.Collections.Generic;
     using System.Globalization;
     using System.Diagnostics;
+    using System.Text;
 
     internal sealed class RegexCharClass {
         // instance data

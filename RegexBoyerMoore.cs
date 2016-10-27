@@ -19,6 +19,7 @@ namespace System.Regex
     using System.Collections;
     using System.Diagnostics;
     using System.Globalization;
+    using System.Text;
 
     internal sealed class RegexBoyerMoore {
         internal int[] _positive;

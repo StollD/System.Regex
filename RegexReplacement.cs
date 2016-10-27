@@ -12,6 +12,7 @@ namespace System.Regex {
 
     using System.Collections;
     using System.Collections.Generic;
+    using System.Text;
 
     internal sealed class RegexReplacement {
         /*

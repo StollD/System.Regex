@@ -18,7 +18,8 @@ namespace System.Regex {
     using System.Collections;
     using System.Collections.Generic;
     using System.Globalization;
-        
+    using System.Text;
+
     internal sealed class RegexParser {
         internal RegexNode _stack;
         internal RegexNode _group;
