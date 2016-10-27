@@ -60,6 +60,18 @@
     <Compile Include="RegexRunnerFactory.cs" />
     <Compile Include="RegexTree.cs" />
     <Compile Include="RegexWriter.cs" />
+    <Compile Include="SR.cs" />
+    <Compile Include="SR_Internal.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>SR_Internal.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="SR_Internal.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>SR_Internal.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
